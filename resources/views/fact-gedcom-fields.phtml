@@ -30,7 +30,7 @@ $elements = [];
 
 $private_level = PHP_INT_MAX;
 
-$module = $module_service->findByInterface(MediaDisplay::class);
+$module = app(ModuleService::class)->findByName('_jc-media-display_');
 
 foreach ($keys as $key) {
     $hierarchy[$levels[$key]] = $tags[$key];
