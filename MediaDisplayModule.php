@@ -25,7 +25,7 @@ class MediaDisplayModule extends AbstractModule implements ModuleCustomInterface
     /**
      * @var string
      */
-    public const CUSTOM_VERSION = '1.2';
+    public const CUSTOM_VERSION = '1.3';
      /**
      * @var string
      */
