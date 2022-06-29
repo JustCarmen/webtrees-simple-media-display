@@ -10,6 +10,7 @@ use Fisharebest\Webtrees\Elements\XrefMedia;
 use Fisharebest\Webtrees\Elements\XrefSource;
 use Fisharebest\Webtrees\Services\ModuleService;
 use Fisharebest\Webtrees\Elements\AbstractXrefElement;
+use JustCarmen\Webtrees\Module\MediaDisplay\MediaDisplayModule;
 
 /**
  * @var string $gedcom
@@ -30,7 +31,7 @@ $elements = [];
 
 $private_level = PHP_INT_MAX;
 
-$module = app(ModuleService::class)->findByName('_jc-media-display_');
+$module = app(ModuleService::class)->findByInterface(MediaDisplayModule::class)->first();
 
 foreach ($keys as $key) {
     $hierarchy[$levels[$key]] = $tags[$key];
