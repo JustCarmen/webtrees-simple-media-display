@@ -45,7 +45,7 @@ class MediaDisplayModule extends AbstractModule implements ModuleCustomInterface
     {
 
         /* I18N: Name of a module */
-        return I18N::translate('Media Display (functionallity as in webtrees 2.0.x versions)');
+        return I18N::translate('Media Display (as in webtrees 2.0)');
     }
 
     /**
