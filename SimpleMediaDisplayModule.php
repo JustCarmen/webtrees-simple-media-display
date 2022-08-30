@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JustCarmen\Webtrees\Module\MediaDisplay;
+namespace JustCarmen\Webtrees\Module\SimpleMediaDisplay;
 
 use Fisharebest\Webtrees\I18N;
 use Fisharebest\Webtrees\View;
@@ -13,7 +13,7 @@ use Fisharebest\Webtrees\Module\ModuleCustomInterface;
 /**
  * Display media objects as in webtrees 2.0
  */
-class MediaDisplayModule extends AbstractModule implements ModuleCustomInterface
+class SimpleMediaDisplayModule extends AbstractModule implements ModuleCustomInterface
 {
     use ModuleCustomTrait;
 

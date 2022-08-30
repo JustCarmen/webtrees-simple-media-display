@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-namespace JustCarmen\Webtrees\Module\MediaDisplay;
+namespace JustCarmen\Webtrees\Module\SimpleMediaDisplay;
 
-require __DIR__ . '/MediaDisplayModule.php';
+require __DIR__ . '/SimpleMediaDisplayModule.php';
 
-return app(MediaDisplayModule::class);
+return app(SimpleMediaDisplayModule::class);

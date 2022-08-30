@@ -2,7 +2,7 @@
  * Laravel mix - Simple Menu
  *
  * Output:
- * 		- jc-media-display-x.zip
+ * 		- jc-simple-media-display-x.zip
  *
  */
 
