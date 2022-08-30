@@ -76,7 +76,7 @@ foreach ($keys as $key) {
             <?php foreach ($keys as $key) : ?>
                 <?php if ($values[$key] !== '') : ?>
                     <?php if ($elements[$key] instanceof XrefMedia && preg_match('/^@(' . Gedcom::REGEX_XREF . ')@$/', $values[$key], $match) === 1) : ?>
-                        <?= view($module->name() . '::jc-media-display', ['xref' => $match[1], 'tree' => $tree]); ?>
+                        <?= view($module->name() . '::jc-simple-media-display', ['xref' => $match[1], 'tree' => $tree]); ?>
                     <?php else : ?>
                         <?= $elements[$key]->labelValue(strtr($values[$key], ["\r" => "\n"]), $tree) ?>
                     <?php endif ?>
@@ -85,7 +85,7 @@ foreach ($keys as $key) {
         </div>
     <?php endif ?>
 <?php elseif ($elements[0] instanceof XrefMedia && preg_match('/^@(' . Gedcom::REGEX_XREF . ')@$/', $values[0], $match) === 1) : ?>
-    <?= view($module->name() . '::jc-media-display', ['xref' => $match[1], 'tree' => $tree]); ?>
+    <?= view($module->name() . '::jc-simple-media-display', ['xref' => $match[1], 'tree' => $tree]); ?>
 <?php else : ?>
     <?php foreach ($keys as $key) : ?>
         <?php if ($values[$key] !== '') : ?>

@@ -19,7 +19,7 @@ mix.webpackConfig({
                 onEnd: {
                     archive: [{
                         source: './dist',
-                        destination: 'dist/jc-media-display-' + version + '.zip'
+                        destination: 'dist/jc-simple-media-display-' + version + '.zip'
                     }]
                 }
             }

@@ -14,7 +14,7 @@
 let mix = require('laravel-mix');
 require('laravel-mix-clean');
 
-const dist_dir = 'dist/jc-media-display';
+const dist_dir = 'dist/jc-simple-media-display';
 
 mix
   .setPublicPath('./dist')

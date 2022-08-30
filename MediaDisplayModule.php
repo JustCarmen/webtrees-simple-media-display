@@ -29,7 +29,7 @@ class MediaDisplayModule extends AbstractModule implements ModuleCustomInterface
      /**
      * @var string
      */
-    public const GITHUB_REPO = 'webtrees-media-display';
+    public const GITHUB_REPO = 'webtrees-simple-media-display';
 
      /**
      * @var string
