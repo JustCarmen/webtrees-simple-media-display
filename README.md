@@ -23,7 +23,7 @@ Unpack the zip file and place the jc-media-display folder in the modules_v4 fold
 
 Bugs
 -------------------------
-If you experience a bug you can [create a new issue on GitHub][3].
+This is a simple module and provided as is. However, if you experience any bugs you can [create a new issue on GitHub][3]. Since this is a simple module, I will be reluctant to accept feature requests.
 
  [1]: https://github.com/JustCarmen/webtrees-media-display/releases/latest
  [2]: https://webtrees.github.io/download/
