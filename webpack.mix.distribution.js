@@ -1,5 +1,5 @@
 /**
-  * Laravel mix - jc-media-display
+  * Laravel mix - jc-simple-media-display
  *
  * Output:
  * 		- dist
@@ -15,10 +15,6 @@ let mix = require('laravel-mix');
 require('laravel-mix-clean');
 
 const dist_dir = 'dist/jc-simple-media-display';
-
-// Disable mix-manifest.json (https://github.com/laravel-mix/laravel-mix/issues/580#issuecomment-919102692)
-// Prevent the distribution zip file containing an unwanted file
-mix.options({ manifest: false })
 
 mix
   .setPublicPath('./dist')
