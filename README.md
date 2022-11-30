@@ -1,4 +1,4 @@
-Media display module for webtrees
+Simple media display module for webtrees
 ==============================
 
 [![Latest Release](https://img.shields.io/github/release/JustCarmen/webtrees-media-display.svg)][1]
@@ -21,7 +21,7 @@ Installation & upgrading
 ------------------------
 Unpack the zip file and place the jc-media-display folder in the modules_v4 folder of webtrees. Upload the newly added folder to your server. It is activated by default and will work immediately. No additional configuration is required.
 
-Bugs
+Bugs & feature requests
 -------------------------
 This is a simple module and provided as is. However, if you experience any bugs you can [create a new issue on GitHub][3]. Since this is a simple module, I will be reluctant to accept feature requests.
 
