@@ -8,14 +8,14 @@ use Fisharebest\Webtrees\Registry;
 <?php $media = Registry::mediaFactory()->make($xref, $tree) ?>
 <?php if ($media instanceof Media) : ?>
     <div class="jc-simple-media-display">
-        <div class="row row-cols-auto p-1 gy-3">
+        <div class="wt-media-link row row-cols-auto p-1 gy-3">
         <?php foreach ($media->mediaFiles() as $media_file) : ?>
-            <div class="col">
+            <div class="wt-media-link-image col">
                 <?= $media_file->displayImage(100, 100, 'contain', []) ?>
             </div>
         <?php endforeach ?>
         </div>
-        <div class="row jc-gallery-caption px-1">
+        <div class="row wt-media-link-title px-1">
             <a href="<?= e($media->url()) ?>"><?= $media->fullName() ?></a>
         </div>
         <?php if (preg_match_all('/\n(1 NOTE\b.*(?:\n[^1].*)*)/', $media->gedcom(), $matches, PREG_SET_ORDER) > 0) : ?>
