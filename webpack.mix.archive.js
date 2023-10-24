@@ -7,7 +7,7 @@
  */
 
 let mix = require('laravel-mix');
-const version = '1.4';
+const version = '1.5';
 
 //https://github.com/gregnb/filemanager-webpack-plugin
 const FileManagerPlugin = require('filemanager-webpack-plugin');
