@@ -25,7 +25,7 @@ class SimpleMediaDisplayModule extends AbstractModule implements ModuleCustomInt
     /**
      * @var string
      */
-    public const CUSTOM_VERSION = '1.5';
+    public const CUSTOM_VERSION = '1.6';
      /**
      * @var string
      */
