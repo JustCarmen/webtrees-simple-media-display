@@ -31,7 +31,7 @@ $elements = [];
 
 $private_level = PHP_INT_MAX;
 
-$module = app(ModuleService::class)->findByInterface(SimpleMediaDisplayModule::class)->first();
+$module = Registry::container()->get(ModuleService::class)->findByInterface(SimpleMediaDisplayModule::class)->first();
 
 foreach ($keys as $key) {
     $hierarchy[$levels[$key]] = $tags[$key];
